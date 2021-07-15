@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // personal network credentials
-const char* ssid = "NET_205";
-const char* password = "boapergunta";
+const char* ssid = "your_network_ssid";
+const char* password = "your_network_pwd";
 const uint16_t port = 80;
 
 WiFiServer wifiServer(port); // set server port
